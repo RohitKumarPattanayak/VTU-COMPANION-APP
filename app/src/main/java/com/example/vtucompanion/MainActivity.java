@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
         VCRegister = findViewById(R.id.textView10);
         VCAttempts = findViewById(R.id.textView14);
         VCremember =findViewById(R.id.checkBox);
-        A1 =new Credentials();
-        Sp= getApplicationContext().getSharedPreferences("DataBase",MODE_PRIVATE);      //it creates a file DataBase and Store a copy of all the value of that file by getSharedpreferences.
-        Spe=Sp.edit();
+        A1 = new Credentials();
+        Sp = getApplicationContext().getSharedPreferences("DataBase",MODE_PRIVATE);      //it creates a file DataBase and Store a copy of all the value of that file by getSharedpreferences.
+        Spe = Sp.edit();
 
 
         if(Sp != null){

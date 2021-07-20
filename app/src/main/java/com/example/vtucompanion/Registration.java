@@ -54,9 +54,8 @@ public class Registration extends AppCompatActivity {
                         A.addCred(InputName,InputPass);
                     }else {
                         Spe.putString(InputName, InputPass);
-
-                       Spe.putString("LastUsername",InputName);                                                         //TRACING NEEDED !!
-                       Spe.putString("LastUserPass",InputPass);                                                         //TRACING NEEDED !!
+                        Spe.putString("LastUsername",InputName);                                                         //TRACING NEEDED !!
+                        Spe.putString("LastUserPass",InputPass);                                                         //TRACING NEEDED !!
 
 
                         Spe.apply();

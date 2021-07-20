@@ -4,14 +4,8 @@ com/example/vtucompanion/inside2vturesults.java
  com.example.vtucompanion.inside2vturesults$2
 com/example/vtucompanion/feedBackSystem.java
  com.example.vtucompanion.feedBackSystem
-com/example/vtucompanion/Insider.java
- com.example.vtucompanion.Insider
- com.example.vtucompanion.Insider$1
- com.example.vtucompanion.Insider$2
- com.example.vtucompanion.Insider$3
- com.example.vtucompanion.Insider$4
- com.example.vtucompanion.Insider$5
- com.example.vtucompanion.Insider$6
+com/example/vtucompanion/Credentials.java
+ com.example.vtucompanion.Credentials
 com/example/vtucompanion/BuildConfig.java
  com.example.vtucompanion.BuildConfig
 com/example/vtucompanion/Profile.java
@@ -43,5 +37,11 @@ com/example/vtucompanion/TodoLists.java
  com.example.vtucompanion.TodoLists
  com.example.vtucompanion.TodoLists$1
  com.example.vtucompanion.TodoLists$2
-com/example/vtucompanion/Credentials.java
- com.example.vtucompanion.Credentials
+com/example/vtucompanion/Insider.java
+ com.example.vtucompanion.Insider
+ com.example.vtucompanion.Insider$1
+ com.example.vtucompanion.Insider$2
+ com.example.vtucompanion.Insider$3
+ com.example.vtucompanion.Insider$4
+ com.example.vtucompanion.Insider$5
+ com.example.vtucompanion.Insider$6
