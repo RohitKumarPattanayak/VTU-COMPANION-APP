@@ -77,6 +77,12 @@ public class TodoLists extends AppCompatActivity {
             if(Sp.contains("todo8")){
                 itemsAdapter.add(Sp.getString("todo8",""));
             }
+            if(Sp.contains("todo9")){
+                itemsAdapter.add(Sp.getString("todo8",""));
+            }
+            if(Sp.contains("todo10")){
+                itemsAdapter.add(Sp.getString("todo8",""));
+            }
         }
     setuolisview();
 
@@ -89,8 +95,10 @@ public class TodoLists extends AppCompatActivity {
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 Context context = getApplicationContext();
                 Toast.makeText(context,"ITEM REMOVED.",Toast.LENGTH_SHORT).show();
+                //if(c<4) {c--;}else{c++}
                 c--;
-                Spe.putString("todo"+c+"","");
+                Spe.remove("todo"+c+"");
+                //Spe.putString("todo"+c+"","");
                 Spe.apply();
                 items.remove(position);
                 itemsAdapter.notifyDataSetChanged();
@@ -104,7 +112,7 @@ public class TodoLists extends AppCompatActivity {
         String itemtext = input.getText().toString();
         Spe.putString("todo"+c+"",itemtext);
         c++;
-        if(c>=8){
+        if(c>=10){
             c=0;
         }
         Spe.apply();

@@ -35,7 +35,7 @@ public class feedBackSystem extends AppCompatActivity {
             Intent i = new Intent ();
             i.setAction(Intent.ACTION_VIEW);
             i.setData(Uri.parse("https://wa.me/" + N + "/?text=" + whatsappContain));
-            startActivity ( i );
+            startActivity (i);
         } catch (Exception e) {
             e.printStackTrace ();
         }

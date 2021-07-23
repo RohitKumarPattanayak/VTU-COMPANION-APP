@@ -74,7 +74,7 @@
         android:layout_width="413dp"
         android:layout_height="49dp"
         android:layout_marginTop="46dp"
-        android:layout_marginBottom="548dp"
+        android:layout_marginBottom="556dp"
         android:text="            REGISTER-FORM       "
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -91,46 +91,116 @@
         android:layout_width="413dp"
         android:layout_height="43dp"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="652dp"
-        android:background="#3E4B93"
-        android:text="                    | VTU Companion |"
+        android:layout_marginBottom="658dp"
+        android:background="#0021D6"
+        android:text="            | VTU Companion |"
         android:textAllCaps="true"
         android:textColor="#C1BC8C"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.461" />
+        app:layout_constraintVertical_bias="0.65" />
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="409dp"
+        android:layout_width="412dp"
         android:layout_height="5dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
-        android:layout_marginBottom="688dp"
+        android:layout_marginBottom="720dp"
         android:background="#C8C28F"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="412dp"
+        android:layout_height="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="724dp"
+        android:background="#C8C28F"
+        android:text="_________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="412dp"
+        android:layout_height="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="716dp"
+        android:background="#C8C28F"
+        android:text="_________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="412dp"
+        android:layout_height="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="714dp"
+        android:background="#C8C28F"
+        android:text="_________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="409dp"
+        android:layout_width="412dp"
         android:layout_height="5dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
-        android:layout_marginBottom="640dp"
+        android:layout_marginBottom="660dp"
         android:background="#C8C28F"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="412dp"
+        android:layout_height="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="664dp"
+        android:background="#C8C28F"
+        android:text="_________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="412dp"
+        android:layout_height="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="668dp"
+        android:background="#C8C28F"
+        android:text="_________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <View

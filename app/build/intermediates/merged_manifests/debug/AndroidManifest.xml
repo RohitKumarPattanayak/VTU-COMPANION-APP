@@ -23,6 +23,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.VTUCompanion" >
+        <activity android:name="com.example.vtucompanion.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.vtucompanion.feedBackSystem" />
         <activity android:name="com.example.vtucompanion.Profile" />
         <activity android:name="com.example.vtucompanion.insideStudyMaterials" />
@@ -33,13 +40,7 @@
         <activity android:name="com.example.vtucompanion.inside1csgpa" />
         <activity android:name="com.example.vtucompanion.Insider" />
         <activity android:name="com.example.vtucompanion.Registration" />
-        <activity android:name="com.example.vtucompanion.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.example.vtucompanion.MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

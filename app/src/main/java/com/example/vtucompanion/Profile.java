@@ -18,12 +18,22 @@ import java.io.IOException;
 
 public class Profile extends AppCompatActivity {
     ImageView profile_Pic;
+    EditText name;
+    EditText gmail;
+    EditText phno;
+    EditText address;
+    EditText clgname;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-        Toast.makeText(Profile.this,"Enter All Details Completely.",Toast.LENGTH_SHORT).show();
+        Toast.makeText(Profile.this,"User details!",Toast.LENGTH_SHORT).show();
         profile_Pic = findViewById(R.id.Profile_pic);
+        name = findViewById(R.id.profile_name);
+        gmail = findViewById(R.id.profile_email);
+        phno = findViewById(R.id.number_call);
+        address = findViewById(R.id.profile_address);
+        clgname = findViewById(R.id.profile_clgName);
     }
 
     public void Upload(View view) {
@@ -47,7 +57,17 @@ public class Profile extends AppCompatActivity {
     }
 
     public void submit_details(View view) {
-        Toast.makeText(Profile.this,"okay registered !!",Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(Profile.this,Insider.class));
+        String nme,eml,clg,ph,adr;
+        nme = name.getText().toString();
+        eml = gmail.getText().toString();
+        clg = clgname.getText().toString();
+        ph = phno.getText().toString();
+        adr = address.getText().toString();
+        if(nme.isEmpty() || eml.isEmpty() || clg.isEmpty() || ph.isEmpty() || adr.isEmpty()){
+            Toast.makeText(Profile.this, "enter all details completely!.", Toast.LENGTH_SHORT).show();
+        }else {
+            Toast.makeText(Profile.this, "okay registered !!", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(Profile.this, Insider.class));
+        }
     }
 }

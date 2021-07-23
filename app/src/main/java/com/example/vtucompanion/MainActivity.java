@@ -35,13 +35,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        getSupportActionBar().hide();
         VCUser = findViewById(R.id.editTextTextPersonName);
         VCPass = findViewById(R.id.editTextTextPassword2);
         VClogin = findViewById(R.id.button);
         VCRegister = findViewById(R.id.textView10);
         VCAttempts = findViewById(R.id.textView14);
         VCremember =findViewById(R.id.checkBox);
+
         A1 = new Credentials();
         Sp = getApplicationContext().getSharedPreferences("DataBase",MODE_PRIVATE);      //it creates a file DataBase and Store a copy of all the value of that file by getSharedpreferences.
         Spe = Sp.edit();
@@ -82,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
                 isValid = Verify(inputUser,inputPass);
                 if (inputUser.isEmpty() || inputPass.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Completely fill all credentials.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Completely fill all details.", Toast.LENGTH_SHORT).show();
 
                 } else {
                     if (!isValid) {
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                         if (i == 0) {
                             VClogin.setEnabled(false);
                         }
-                        Toast.makeText(MainActivity.this, "Invalid credentials", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Invalid detailss", Toast.LENGTH_SHORT).show();
                         Toast.makeText(MainActivity.this, "If new User? then Register below.", Toast.LENGTH_SHORT).show();
 
                     } else {

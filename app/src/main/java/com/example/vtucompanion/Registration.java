@@ -26,7 +26,7 @@ public class Registration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
-
+        getSupportActionBar().hide();
         RegUser = findViewById(R.id.editTextTextPersonName8);
         RegPass = findViewById(R.id.editTextTextPassword);
         VCRegister = findViewById(R.id.button2);
