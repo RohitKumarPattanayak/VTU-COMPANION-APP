@@ -50,8 +50,11 @@ public class TodoLists extends AppCompatActivity {
     itemsAdapter=new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,items);
     listview.setAdapter(itemsAdapter);
         if(Sp != null){
-            if(Sp.contains("todo0")){
-                itemsAdapter.add(Sp.getString("todo0",""));
+            if(Sp.contains("count")){
+                c = Sp.getInt("count",0);
+            }
+            if(Sp.contains("todo0")) {
+                itemsAdapter.add(Sp.getString("todo0", ""));
             }
             if(Sp.contains("todo1")){
                 itemsAdapter.add(Sp.getString("todo1",""));
@@ -98,6 +101,7 @@ public class TodoLists extends AppCompatActivity {
                 //if(c<4) {c--;}else{c++}
                 c--;
                 Spe.remove("todo"+c+"");
+                Spe.putInt("count",c);
                 //Spe.putString("todo"+c+"","");
                 Spe.apply();
                 items.remove(position);
@@ -115,6 +119,7 @@ public class TodoLists extends AppCompatActivity {
         if(c>=10){
             c=0;
         }
+        Spe.putInt("count",c);
         Spe.apply();
 
         if(!(itemtext.equals(""))){

@@ -96,11 +96,11 @@
         "source": "D:\\AndroidStudioProjects\\project1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\project1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_feed_back_system.xml.flat",
-        "source": "D:\\AndroidStudioProjects\\project1\\app\\src\\main\\res\\layout\\activity_feed_back_system.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\project1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\AndroidStudioProjects\\project1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\project1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_feed_back_system.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\project1\\app\\src\\main\\res\\layout\\activity_feed_back_system.xml"
     }
 ]

@@ -30,17 +30,54 @@
 
         <ImageView
             android:id="@+id/Profile_pic"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
             android:background="@color/white"
             android:layout_margin="10dp"/>
 
-        <Button
-            android:id="@+id/button_upload"
-            android:layout_width="wrap_content"
-            android:onClick="Upload"
-            android:text="upload"
-            android:layout_height="wrap_content"/>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="60dp">
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Upload"
+        android:text="upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <Button
+        android:id="@+id/Profile_pic_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Female"
+        android:onClick="female"
+        app:layout_constraintBottom_toBottomOf="@+id/button_upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_upload"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/Profile_pic_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Male"
+        android:onClick="male"
+        app:layout_constraintBottom_toBottomOf="@+id/button_upload"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_upload"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,6 +94,7 @@
                 android:id="@+id/profile_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:textColorHint="@color/white"
                 android:textColor="@color/white"
                 android:hint="NAME"/>
@@ -65,6 +103,7 @@
                 android:id="@+id/number_call"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:inputType="phone"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
@@ -76,6 +115,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:inputType="textEmailAddress"
+                android:gravity="center"
                 android:textColorHint="@color/white"
                 android:hint="EMAIL ADDRESS"/>
 
@@ -83,6 +123,7 @@
                 android:id="@+id/profile_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 android:hint="ADDRESS"/>
@@ -91,6 +132,7 @@
                 android:id="@+id/profile_clgName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 android:hint="COLLEGE NAME"/>
@@ -103,6 +145,13 @@
             android:layout_marginTop="40dp"
             android:onClick="submit_details"
             android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clear_profile_info"
+            android:text="clear information" />
 
     </LinearLayout>
 

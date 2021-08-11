@@ -24,16 +24,16 @@ com/example/vtucompanion/inside2vturesults.java
  com.example.vtucompanion.inside2vturesults
  com.example.vtucompanion.inside2vturesults$1
  com.example.vtucompanion.inside2vturesults$2
-com/example/vtucompanion/Profile.java
- com.example.vtucompanion.Profile
-com/example/vtucompanion/feedBackSystem.java
- com.example.vtucompanion.feedBackSystem
 com/example/vtucompanion/SplashScreen.java
  com.example.vtucompanion.SplashScreen
  com.example.vtucompanion.SplashScreen$1
+com/example/vtucompanion/feedBackSystem.java
+ com.example.vtucompanion.feedBackSystem
 com/example/vtucompanion/Registration.java
  com.example.vtucompanion.Registration
  com.example.vtucompanion.Registration$1
+com/example/vtucompanion/Profile.java
+ com.example.vtucompanion.Profile
 com/example/vtucompanion/insideStudyMaterials.java
  com.example.vtucompanion.insideStudyMaterials
 com/example/vtucompanion/TodoLists.java

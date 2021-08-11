@@ -10,10 +10,10 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="413dp"
-        android:layout_height="43dp"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="654dp"
-        android:background="#0A2DEF"
+        android:background="@color/purple_700"
         android:text="            | VTU Companion |"
         android:textAllCaps="true"
         android:textColor="#C1BC8C"
@@ -154,7 +154,7 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="720dp"
-        android:background="#C8C28F"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -167,12 +167,12 @@
         android:layout_height="5dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
-        android:layout_marginBottom="720dp"
-        android:background="#C8C28F"
+        android:layout_marginBottom="708dp"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -182,7 +182,7 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="724dp"
-        android:background="#C8C28F"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -196,7 +196,7 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="716dp"
-        android:background="#C8C28F"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -209,12 +209,12 @@
         android:layout_height="5dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
-        android:layout_marginBottom="712dp"
-        android:background="#C8C28F"
+        android:layout_marginBottom="716dp"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -267,7 +267,7 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="664dp"
-        android:background="#C8C28F"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -295,7 +295,7 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="664dp"
-        android:background="#C8C28F"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -309,7 +309,7 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="656dp"
-        android:background="#C8C28F"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -323,7 +323,7 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="660dp"
-        android:background="#C8C28F"
+        android:background="@color/purple_700"
         android:text="_________________________________________"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -401,5 +401,26 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="409dp"
+        android:layout_height="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@color/purple_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="409dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C8C28F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
